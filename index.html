@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      /* styles for demo only. not required */
+      img { display:block; max-width:100%; height:auto; margin:auto; }
+      p { text-align:center; font:12px/1 sans-serif; }
+    </style>
+  </head>
+  <body>
+    
+    <!--load a low-res image immediately, then lazy-load a high-res image to replace it-->
+    <img class="b-lazy" src="img/a-lo.jpg" data-src="img/a-hi.jpg">
+    
+    <!--load a "loading" spinner immediately, then lazy-load a high-res image to replace it-->
+    <img class="b-lazy" src="img/loading.gif" data-src="img/b-hi.jpg">
+    
+    <!--don't load anything immediately, then lazy-load a high-res image-->
+    <img class="b-lazy" data-src="img/c-hi.jpg" width="1600" height="1063">
+    
+    <p>Photos from <a href="https://unsplash.com/collections/curated/100" target="_blank">Unsplash</a></p>
+    
+    <script src="basiclazyloader-v1.0.js"></script>
+    
+  </body>
+</html>
