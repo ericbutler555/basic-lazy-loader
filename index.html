@@ -21,9 +21,12 @@
     <!--don't load anything immediately, then lazy-load a high-res image-->
     <img class="b-lazy" data-src="img/c-hi.jpg" width="1600" height="1063">
     
+    <!--totally optional: if you need to have a fallback for users who disable javascript-->
+    <noscript><img src="img/c-hi.jpg"></noscript>
+    
     <p>Photos from <a href="https://unsplash.com/collections/curated/100" target="_blank">Unsplash</a></p>
     
-    <script src="basiclazyloader-v1.0.js"></script>
+    <script src="basiclazyloader-v1.0.min.js"></script>
     
   </body>
 </html>
