@@ -1,7 +1,8 @@
 # Basic Lazy Loader
 
-Super tiny (416 **bytes**) JavaScript file that enables basic lazy-loading on your web pages.
+Super tiny (416 **bytes**) JavaScript file that enables **basic** lazy-loading on your web pages.
 
+>Note: For slightly more robust features, check out [Unveil.js](https://github.com/luis-almeida/unveil) or [Echo.js](https://github.com/toddmotto/echo).
 
 ## What It Does and Doesn't
 
