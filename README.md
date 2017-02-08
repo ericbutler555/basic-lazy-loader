@@ -1,6 +1,6 @@
 # Basic Lazy Loader
 
-Super tiny (416 **bytes**) JavaScript file that enables **basic** lazy-loading on your web pages.
+Super tiny (0.4 kb) JavaScript file that enables **basic** lazy-loading on your web pages.
 
 >Note: For slightly more robust features, check out [Unveil.js](https://github.com/luis-almeida/unveil) or [Echo.js](https://github.com/toddmotto/echo).
 
@@ -53,11 +53,11 @@ One word of caution with this: this does mean that your page will load extra fil
 
 Should work in all modern and mobile browsers, IE 8 and higher.
 
-It is written as plain JavaScript, so there are **no dependencies** besides having JavaScript enabled in your browser. If you want to support that as well, you'll need to use `<noscript>` tags. Example:
+It is written as plain JavaScript, so there are **no dependencies** besides having JavaScript enabled in your browser. If you want to support JS being disabled as well, you'll need to use `<noscript>` tags. Example:
 
     <img class="b-lazy" data-src="path/to/file.jpg">
     <noscript>
       <img src="path/to/file.jpg">
     </noscript>
 
-Kinda overkill, but that's how you'd do it if you had to. Enjoy.
+You can decide if that's worth the extra code, but if you wanted to, that's how you'd do it. Enjoy.
